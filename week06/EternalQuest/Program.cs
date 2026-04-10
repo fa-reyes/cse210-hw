@@ -1,9 +1,12 @@
 using System;
 
-class Program
+// Exceeding requirements:
+// Implementation of Negative Goals: Allows users to track habits they want to avoid by penalizing the total score.
+class Program 
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
