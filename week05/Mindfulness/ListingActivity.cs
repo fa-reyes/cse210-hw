@@ -25,9 +25,8 @@ public class ListingActivity : Activity
     ShowCountDown(5);
     Console.WriteLine();
 
-    // Aquí llamamos al helper y guardamos el resultado
     List<string> responses = GetListFromUser();
-    _count = responses.Count; // Actualizamos nuestro contador con el tamaño de la lista
+    _count = responses.Count; 
 
     Console.WriteLine($"\nYou listed {_count} items!");
     
